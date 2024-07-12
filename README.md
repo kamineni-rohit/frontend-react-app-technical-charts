@@ -1,110 +1,70 @@
-# Financial Technical Charts Website
+# Getting Started with Create React App
 
-This is the repository for creating and managing the front end for the financial technical charts website. We're going to use React to build this.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Available Scripts
 
-## Project Overview
-The goal of this project is to build a responsive and interactive website that supports the visualization and analysis of financial technical charts. This site will provide tools and features to help users conduct detailed technical analysis of various financial instruments.
+In the project directory, you can run:
 
-## Technologies Used
-- **React**: A JavaScript library for building user interfaces.
-- **Redux**: For state management.
-- **React Router**: For routing.
-- **Axios**: For making HTTP requests.
-- **Chart.js** or **D3.js**: For rendering charts.
-- **Styled-Components** or **Sass**: For styling.
-- **Webpack**: For module bundling.
-- **Babel**: For JavaScript transpiling.
+### `npm start`
 
-## Getting Started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Prerequisites
-Before you begin, ensure you have met the following requirements:
-- Node.js (>=14.x)
-- npm or yarn
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Installation
+### `npm test`
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/financial-technical-charts.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd financial-technical-charts
-    ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
-    or
-    ```bash
-    yarn install
-    ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. Start the development server:
-    ```bash
-    npm start
-    ```
-    or
-    ```bash
-    yarn start
-    ```
+### `npm run build`
 
-    This will open the app in your default browser at `http://localhost:3000`.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **assets/**: Contains images, fonts, and other static assets.
-- **components/**: Reusable UI components.
-- **containers/**: Components connected to the Redux store.
-- **services/**: API service calls.
-- **store/**: Redux store configuration and slices.
-- **styles/**: Global and component-specific styles.
-- **utils/**: Utility functions and helpers.
-- **App.js**: Main app component.
-- **index.js**: Entry point of the application.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Features
-- **User Authentication**: Secure login and signup functionality.
-- **Interactive Charts**: Detailed and customizable financial charts.
-- **Technical Indicators**: Support for various technical indicators.
-- **Responsive Design**: Mobile-first design approach.
-- **Data Fetching**: Real-time data updates using API services.
+### `npm run eject`
 
-## Contributing
-Contributions are always welcome! Please follow these steps:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/YourFeatureName
-    ```
-3. Make your changes.
-4. Commit your changes:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-5. Push to the branch:
-    ```bash
-    git push origin feature/YourFeatureName
-    ```
-6. Open a pull request.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Contact
-- **Your Name** - [your.email@example.com](mailto:your.email@example.com)
-- **GitHub** - [yourusername](https://github.com/yourusername)
-- **Project Link** - [https://github.com/yourusername/financial-technical-charts](https://github.com/yourusername/financial-technical-charts)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
